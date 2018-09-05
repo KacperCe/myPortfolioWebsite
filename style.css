@@ -1,6 +1,4 @@
-* {
-    
-}
+* {}
 
 body {
     color: #444;
@@ -30,7 +28,6 @@ a {
     font-family: Gruppo;
     font-size: 2em;
     border-bottom: 0.5px solid rgba(68, 68, 68, 0.6);
-    
 }
 
 #hero h2 {
@@ -96,6 +93,9 @@ a {
     background-size: cover;
     background-position: 60% 0;
     background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     height: 100vh;
     width: 100vw;
 }
@@ -151,7 +151,6 @@ a {
 }
 
 /* SKILLS */
-
 .tech {
     margin: 3em auto;
     width: 8em;
@@ -163,7 +162,6 @@ a {
 }
 
 /* CONTACT */
-
 .contact {
     background-image: url(img/background-laptop.jpeg);
     background-repeat: no-repeat;
@@ -190,6 +188,4 @@ a {
     width: 6em;
     margin: 0 auto;
     font-size: .8em;
-    
 }
-
