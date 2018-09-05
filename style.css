@@ -1,7 +1,12 @@
+* {
+    
+}
+
 body {
     color: #444;
     font-family: Raleway, sans-serif;
-    
+    text-align: center;
+    background: #FFFFFF
 }
 
 img {
@@ -9,23 +14,29 @@ img {
     height: auto;
 }
 
-.container {
-    width: 90vw;
-    margin: 2em auto;
-    line-height: 1.5em;
+a {
+    text-decoration: none;
+    color: #f1f1f9;
 }
 
+.container {
+    width: 90vw;
+    margin: 3em auto;
+    line-height: 1.5em;
+}
 
 /* TYPOGRAPHY */
 .title {
     font-family: Gruppo;
     font-size: 2em;
-    border-bottom: 0.5px solid rgba(68, 68, 68, 0.6) ;
+    border-bottom: 0.5px solid rgba(68, 68, 68, 0.6);
+    
 }
 
 #hero h2 {
     font-family: Raleway;
     font-weight: 200;
+    text-align: left;
 }
 
 .section-title {
@@ -39,9 +50,7 @@ img {
     padding-top: 1rem;
 }
 
-
 /* BUTTONS */
-
 .button {
     display: inline-block;
     font-size: 1.1rem;
@@ -50,17 +59,18 @@ img {
     border-width: 2px;
     border-style: solid;
     padding: .5em 1.5em;
+    transition: all ease-in-out 200ms;
 }
 
 .button-accent {
-    color: #00ff6c;
-    border-color: #00ff6c;
+    color: #f1f1f9;
+    border-color: #f1f1f9;
 }
 
 .button-accent:hover,
 .button-accent:focus {
-    background: #00ff6c;
-    color: #232323;
+    background: #f1f1f9;
+    color: #444444;
 }
 
 .button-dark {
@@ -98,12 +108,21 @@ img {
 }
 
 /* ABOUT */
-
+.profile-photo {
+    background-image: url(img/profilephoto.jpg);
+    background-position: 50% 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
+    margin: 3em auto;
+}
 
 /* PORTFOLIO */
-
 .portfolio-flex {
-   text-align: center;
+    text-align: center;
+    /* margin-bottom: 3em; */
 }
 
 .port-item {
@@ -127,7 +146,50 @@ img {
     background: rgba(0, 0, 0, .6)
 }
 
-
 .port-desc p {
     margin: 1em;
 }
+
+/* SKILLS */
+
+.tech {
+    margin: 3em auto;
+    width: 8em;
+}
+
+.tech-caption {
+    font-size: 1.2em;
+    padding: .5em;
+}
+
+/* CONTACT */
+
+.contact {
+    background-image: url(img/background-laptop.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60% 0;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    color: #f1f1f9;
+}
+
+.contact .transparent {
+    background: #000;
+}
+
+.dark-opacity {
+    width: 100%;
+    height: 100%;
+    background-color: #222;
+    opacity: .8;
+}
+
+.social {
+    width: 6em;
+    margin: 0 auto;
+    font-size: .8em;
+    
+}
+
