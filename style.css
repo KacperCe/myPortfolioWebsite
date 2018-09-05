@@ -1,0 +1,132 @@
+body {
+    color: #444;
+    font-family: Raleway, sans-serif;
+    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 90vw;
+    margin: 2em auto;
+    line-height: 1.5em;
+}
+
+
+/* TYPOGRAPHY */
+.title {
+    font-family: Gruppo;
+    font-size: 2em;
+    border-bottom: 0.5px solid rgba(68, 68, 68, 0.6) ;
+}
+
+#hero h2 {
+    font-family: Raleway;
+    font-weight: 200;
+}
+
+.section-title {
+    font-family: Lato;
+    font-size: 1.5em;
+    font-weight: 300;
+    height: 2.5rem;
+    background: #444;
+    color: #f1f1f9;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+
+/* BUTTONS */
+
+.button {
+    display: inline-block;
+    font-size: 1.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    padding: .5em 1.5em;
+}
+
+.button-accent {
+    color: #00ff6c;
+    border-color: #00ff6c;
+}
+
+.button-accent:hover,
+.button-accent:focus {
+    background: #00ff6c;
+    color: #232323;
+}
+
+.button-dark {
+    color: #232323;
+    border-color: #232323;
+}
+
+.button-dark:hover,
+.button-dark:focus {
+    background: #232323;
+    color: #00ff6c;
+}
+
+.button-small {
+    font-size: .7rem;
+    font-weight: 700;
+}
+
+/* HEADER */
+.main-header {
+    background-image: url(img/background-laptop.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60% 0;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+#hero {
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    line-height: 1.2;
+}
+
+/* ABOUT */
+
+
+/* PORTFOLIO */
+
+.portfolio-flex {
+   text-align: center;
+}
+
+.port-item {
+    position: relative;
+    margin: 0;
+}
+
+.port-item img {
+    display: block;
+    width: 100%;
+}
+
+.port-desc {
+    position: absolute;
+    z-index: 100;
+    bottom: 0em;
+    left: 0em;
+    right: 0em;
+    padding-bottom: 1.5em;
+    color: #f1f1f9;
+    background: rgba(0, 0, 0, .6)
+}
+
+.port-desc p {
+    margin: 1em;
+}
