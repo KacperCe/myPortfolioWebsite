@@ -1,4 +1,3 @@
-* {}
 
 body:before {
     content: "";
@@ -6,14 +5,15 @@ body:before {
     position: fixed;
     left: 0;
     top: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     z-index: -10;
     background: url(img/background-laptop.jpeg) no-repeat 60% 0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    transition: height 999999s;
   }
 
 body {
@@ -185,11 +185,11 @@ a {
 
 /* CONTACT */
 .contact {
-    background-image: url(img/background-laptop.jpeg);
+    /* background-image: url(img/background-laptop.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 60% 0;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     height: 100vh;
     width: 100vw;
     color: #f1f1f9;
