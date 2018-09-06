@@ -69,6 +69,7 @@ a {
 #hero h2 {
     font-family: Raleway;
     font-weight: 200;
+    font-size: .8rem;
     text-align: left;
 }
 
@@ -129,13 +130,13 @@ a {
     text-align: left;
 }
 
-.arrow-down {
+#arrow-down {
     width: 100%;
     margin: 0 auto;
     text-align: center;
 }
 
-.arrow-down::after {
+#arrow-down::after {
     content: "";
     width: 20px;
     height: 20px;
@@ -147,8 +148,8 @@ a {
     left: 0;
     border-right: 2px solid #444;
     border-bottom: 2px solid #444;
-    animation: arrow 1s infinite ease-in-out;
-    -webkit-animation: arrow 1.4s infinite ease-in-out;
+    animation: arrow 1.2s infinite ease-in-out;
+    -webkit-animation: arrow 1.2s infinite ease-in-out;
     transform: rotate(45deg)   ;
     -webkit-transform: rotate(45deg)   ;
     -moz-transform: rotate(45deg)   ;
