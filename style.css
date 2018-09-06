@@ -204,7 +204,7 @@ a {
 .social {
     display: block;
     width: 10rem;
-    margin: 1em;
+    margin: 1em 0;
     transition: ease-in-out 200ms;
 }
 
