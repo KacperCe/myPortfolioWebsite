@@ -3,12 +3,7 @@ window.addEventListener('scroll', function() {
     if (currScrollPos > 100) {
       document.getElementById('hero').style.opacity = -currScrollPos / 120 + 2;
       document.getElementById('arrow-down').style.opacity = -currScrollPos / 120 + 2;
-      
-    }
-    
-      
-      
-    
+    } 
   }
 );
 
@@ -33,6 +28,7 @@ let toggleNav = function () {
 
         }
         toggleNavStatus = true;
+
     } else if (toggleNavStatus === true) {
 
         getButton.classList.toggle("btn-close");
