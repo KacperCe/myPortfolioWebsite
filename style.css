@@ -134,6 +134,10 @@ a {
     -moz-transition: all ease-in-out 200ms;
     -ms-transition: all ease-in-out 200ms;
     -o-transition: all ease-in-out 200ms;
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    -ms-border-radius:0;
+    -o-border-radius:0;
 }
 
 .btn-close {
@@ -141,14 +145,11 @@ a {
 }
 
 #nav-main {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     position: fixed;
     top: 0;
     width: 100%;
-    height: 40px;
-    background-color: rgba(255, 255, 255, 0);
+    height: 60px;
+    background-color: rgba(220, 220, 220, .6);
     z-index: 1000;
     transition: all ease-in-out 200ms;
     -webkit-transition: all ease-in-out 200ms;
@@ -158,7 +159,7 @@ a {
 }
 
 #nav-main ul {
-    
+    padding-top: 50px;
     overflow: hidden;
     visibility: hidden;
 }
@@ -180,7 +181,6 @@ a {
     font-size: 1.2em;
     font-weight: 600;
     border-bottom: 1px solid #ccc;
-    white-space: nowrap;
     opacity: 0;
     transition: all ease-in-out 200ms;
     -webkit-transition: all ease-in-out 200ms;

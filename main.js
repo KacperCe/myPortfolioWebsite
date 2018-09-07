@@ -34,7 +34,7 @@ let toggleNav = function () {
         getButton.classList.toggle("btn-close");
         getTopBarUl.style.visibility = "hidden";
         getTopBar.style.height = "60px";
-        getTopBar.style.background = "rgba(255, 255, 255, 0)";
+        getTopBar.style.background = "rgba(220, 220, 220, 0.6)";
 
         let arrayLength = getTopBarLinks.length;
         for (let index = 0; index < arrayLength; index++) {
